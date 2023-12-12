@@ -1,0 +1,68 @@
+body {
+    width: 1250px;
+    background-color: hsl(212, 45%, 89%);
+    /* overflow: hidden; */
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    margin: 5vh auto;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    flex-basis: 21.5em;
+}
+
+.two p {
+    font-size: 23px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.three p {
+    font-size: 0.6em;
+    margin: 0;
+    font-weight: 400;
+}
+
+.item {
+    display: flex;
+    margin: 0.8em;
+}
+
+.two {
+    color: hsl(218, 44%, 22%);
+    font-family: Outfit, sans-serif;
+    /* align-content: center; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 18em;
+    /* flex: 1; */
+}
+
+.three {
+    color: hsl(220, 15%, 55%);
+    font-family: Outfit, sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 30em; */
+    /* padding: 0 1em; */
+    margin: 0em 0em 3em 0em;
+}
+
+img {
+    width: 100%;
+    /* height: auto; */
+    border-radius: 10px;
+}
